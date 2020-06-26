@@ -1,0 +1,12 @@
+# cache files
+__pycache__
+*.pyc
+
+# project files
+.idea
+
+# data files
+Transcript.txt
+*.pdf
+*.htm
+*.log

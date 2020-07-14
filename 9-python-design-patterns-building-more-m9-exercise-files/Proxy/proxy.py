@@ -22,5 +22,5 @@ class Proxy(AbsEmployees):
                                ('%.2f' % e.salary),
                                e.birthdate)
 
-            else:  # Hide birthdate and salary details
+            else:  # Hide birthdate and salary detailsd
                 yield Employee(e.empid, e.name, '*****', '*****')

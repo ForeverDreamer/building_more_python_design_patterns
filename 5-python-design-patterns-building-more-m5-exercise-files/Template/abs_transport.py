@@ -22,7 +22,7 @@ class AbsTransport(ABC):
 
     @abstractmethod
     def travel_to_destination(self):
-        print('Travelling...')
+        pass
 
     def entertainment(self):
         pass

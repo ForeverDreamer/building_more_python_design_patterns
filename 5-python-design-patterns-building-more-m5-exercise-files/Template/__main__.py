@@ -1,5 +1,7 @@
 from bus import Bus
 from airplane import Airplane
+"""模板方法模式(Template Method Pattern)"""
+"""Classification: Behavioral"""
 
 
 def main():

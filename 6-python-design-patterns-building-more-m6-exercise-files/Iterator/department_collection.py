@@ -9,8 +9,8 @@ class Departments(Sequence):
     def add_department(self, department):
         self._departments.append(department)
 
-    def __getitem__(self, item):
-        return self._departments[item]
+    def __getitem__(self, idx):
+        return self._departments[idx]
 
     def __len__(self):
         return len(self._departments)

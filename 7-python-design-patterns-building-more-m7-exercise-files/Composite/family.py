@@ -4,13 +4,14 @@ from datetime import date
 from abs_composite import AbsComposite
 
 
-class Tree(Iterable, AbsComposite):
+class Family(Iterable, AbsComposite):
 
     def __init__(self, members):
-        self.members = members
+        self._members = members
 
     def __iter__(self):
-        return iter(self.members)
+        # return iter(self._members)
+        return (m for m in self._members)
 
     def get_oldest(self):
         def f(t1, t2):

@@ -1,4 +1,6 @@
 from mock_vendors import MOCKVENDORS
+"""Classification: Structural"""
+
 CUSTOMERS = MOCKVENDORS
 
 

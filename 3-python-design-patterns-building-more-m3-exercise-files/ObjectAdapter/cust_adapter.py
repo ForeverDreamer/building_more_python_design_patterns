@@ -2,8 +2,10 @@ from abs_adapter import AbsAdapter
 
 
 class CustAdapter(AbsAdapter):
+    @property
     def name(self):
-        return self._adaptee.name
+        return self.adaptee.name
 
+    @property
     def address(self):
-        return self._adaptee.address
+        return self.adaptee.address

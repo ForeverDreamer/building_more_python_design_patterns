@@ -2,6 +2,7 @@ from cars.economy import Economy
 from decorators.v6 import V6
 from decorators.vinyl import Vinyl
 from decorators.black import Black
+"""Classification: Structural"""
 
 
 def main():

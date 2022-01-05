@@ -1,6 +1,6 @@
-from .abs_employees import AbsEmployees
-from .access_controls import AccessControls
-from .employee import Employee
+from abs_employees import AbsEmployees
+from access_controls import AccessControls
+from employee import Employee
 
 
 class Proxy(AbsEmployees):

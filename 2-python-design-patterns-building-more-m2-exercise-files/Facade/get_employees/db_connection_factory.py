@@ -3,9 +3,9 @@ from inspect import getmembers, isabstract, isclass
 from .abs_facade import AbsFacade
 
 
-class FacadeFactory:
+class DbConnectionFactory:
     @staticmethod
-    def create_facade(module_name):
+    def create_connection(module_name):
         module = import_module('.' + module_name, __package__)
 
         classes = getmembers(module,

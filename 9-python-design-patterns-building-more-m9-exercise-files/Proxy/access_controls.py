@@ -1,4 +1,4 @@
-from .testdata import ACCESSCONTROLS
+from testdata import ACCESSCONTROLS
 
 
 class AccessControls:

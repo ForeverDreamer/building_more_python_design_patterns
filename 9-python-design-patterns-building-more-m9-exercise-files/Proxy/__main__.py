@@ -1,4 +1,5 @@
-from .factory import get_employees_collection
+from factory import get_employees_collection
+"""Classification: Structural"""
 
 DETAILS = 'Employee Id: %d, Name: %s, Birthdate: %s, Salary: %s'
 

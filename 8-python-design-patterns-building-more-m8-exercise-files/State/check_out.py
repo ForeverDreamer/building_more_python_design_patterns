@@ -7,21 +7,14 @@ class AtCheckOut(AbsState):
         print("You can't add items at the check out counter.")
 
     def remove_item(self):
-        self._cart.items -= 1
-        if self._cart.items:
-            print('You now have %s items in your cart.' % self._cart.items)
-        else:
-            print('Your cart is empty again.')
-            self._cart.state = self._cart.empty
+        print("You can't remove items at the check out counter.")
 
     def checkout(self):
         print("You're already at checkout.")
 
     def pay(self):
-        print("You paid for %s items." % self._cart.items)
+        print("You paid for %s items." % self._cart.size)
         self._cart.state = self._cart.paid_for
 
     def empty_cart(self):
-        self._cart.items = 0
-        self._cart.state = self._cart.empty
-        print("Your cart is empty again.")
+        print("You can't empty items at the check out counter.")

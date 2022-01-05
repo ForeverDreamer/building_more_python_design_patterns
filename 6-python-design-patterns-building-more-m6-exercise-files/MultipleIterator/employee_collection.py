@@ -19,14 +19,14 @@ class EmployeesIterator(Iterator):
     def __init__(self, employees, headcount):
         self._employees = employees
         self._headcount = headcount
-        self._empid = 0
+        self._curr_id = 0
 
     def __iter__(self):
         return self
 
     def __next__(self):
-        if self._empid < self._headcount:
-            self._empid += 1
-            return self._employees[self._empid]
+        if self._curr_id < self._headcount:
+            self._curr_id += 1
+            return self._employees[self._curr_id]
         else:
             raise StopIteration

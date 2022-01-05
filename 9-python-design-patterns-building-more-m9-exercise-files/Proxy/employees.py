@@ -1,5 +1,5 @@
-from .abs_employees import AbsEmployees
-from .testdata import EMPLOYEES
+from abs_employees import AbsEmployees
+from testdata import EMPLOYEES
 
 
 class Employees(AbsEmployees):

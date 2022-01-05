@@ -1,4 +1,5 @@
 from shopping_cart import ShoppingCart
+"""Classification: Behavioral"""
 
 
 def main():

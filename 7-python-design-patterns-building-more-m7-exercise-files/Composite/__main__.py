@@ -1,7 +1,7 @@
 from datetime import date
 from person import Person
 from family import Family
-"""复合（合成）模式"""
+"""复合（组合/合成）模式"""
 """Classification: Structural"""
 
 

@@ -1,7 +1,7 @@
 from get_employees import PROVIDER
 from get_employees.db_connection_factory import DbConnectionFactory
 """Classification: Structural"""
-"""sqlalchemy就是一种封装关系型数据库的外观模式(facade pattern)"""
+"""sqlalchemy封装关系型数据库，同时用到了外观模式(facade pattern)和策略模式(strategy pattern)"""
 
 
 def main():

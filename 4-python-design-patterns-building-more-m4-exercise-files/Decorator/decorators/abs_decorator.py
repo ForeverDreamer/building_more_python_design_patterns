@@ -9,13 +9,3 @@ class AbsDecorator(AbsCar):
     @property
     def car(self):
         return self._car
-
-    @property
-    @abstractmethod
-    def description(self):
-        pass
-
-    @property
-    @abstractmethod
-    def cost(self):
-        pass
